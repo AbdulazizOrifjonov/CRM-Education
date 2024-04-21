@@ -1,0 +1,47 @@
+.app {
+  text-align: center;
+}
+ 
+.position {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: local ;
+  height: auto;
+  padding-top: 70px;
+}
+.color{
+  background-color: #435362;
+}
+ 
+
+input{
+  outline: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,12 @@
+.mains{
+  
+width: 100%;
+height: auto;
+ display: flex;
+ flex-direction: column;
+
+}
+.m{
+    width: 100%;
+    height: auto;
+}
