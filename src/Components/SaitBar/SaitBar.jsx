@@ -23,36 +23,7 @@ function SaitBar() {
         <NavLink to="/trash" className="span" activeClassName="active">
           <FaTrash /> Trash
         </NavLink>
-        <NavLink to="/my-drive" className="span" activeClassName="active">
-          <FaUser /> My drive
-        </NavLink>
-        <NavLink to="/computers" className="span" activeClassName="active">
-          <FaLaptop /> Computers
-        </NavLink>
-        <NavLink to="/shared-with-me" className="span" activeClassName="active">
-          <FaClone /> Shared with me
-        </NavLink>
-        <NavLink to="/starred" className="span" activeClassName="active">
-          <FaStar /> Starred
-        </NavLink>
-        <NavLink to="/trash" className="span" activeClassName="active">
-          <FaTrash /> Trash
-        </NavLink>
-        <NavLink to="/my-drive" className="span" activeClassName="active">
-          <FaUser /> My drive
-        </NavLink>
-        <NavLink to="/computers" className="span" activeClassName="active">
-          <FaLaptop /> Computers
-        </NavLink>
-        <NavLink to="/shared-with-me" className="span" activeClassName="active">
-          <FaClone /> Shared with me
-        </NavLink>
-        <NavLink to="/starred" className="span" activeClassName="active">
-          <FaStar /> Starred
-        </NavLink>
-        <NavLink to="/trash" className="span" activeClassName="active">
-          <FaTrash /> Trash
-        </NavLink>
+         
       </aside>
     </div>
   );
