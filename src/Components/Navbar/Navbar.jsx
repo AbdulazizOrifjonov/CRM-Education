@@ -82,6 +82,8 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 // import Oquvchi from "../../Router/Oquvchi/Oquvchi"
 import Search from './Search/Search';
 // import Headroom from 'react-headroom'
+import { SlSettings } from "react-icons/sl";
+
 
 
 
@@ -136,6 +138,7 @@ function Navbar({ isSidebarOpen, setSidebarOpen }) {
                         </div> */}
                         <p className='p' >
                             User
+
                         </p>
                     </div>
                     {/* <Oquvchi/> */}

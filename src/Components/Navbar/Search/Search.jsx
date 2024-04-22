@@ -41,7 +41,7 @@ function Search() {
     };
 
     const handleInputClick = () => {
-        setBorderColor('red');
+        setBorderColor('#1C64F2');
     };
 
     const handleInputBlur = () => {
@@ -49,7 +49,7 @@ function Search() {
     };
 
     return (
-        <div className="nav_center" style={{ border: `1px solid ${borderColor}`, display: 'flex', alignItems: 'center' }}>
+        <div className="nav_center" style={{ boxShadow: `  0 0  10px 7px  ${borderColor}`, display: 'flex', alignItems: 'center' }}>
             <input className='input' type="text" placeholder='Search...'  value={inputValue} onChange={handleInputChange} onClick={handleInputClick} onBlur={handleInputBlur} />
             {inputValue && <button onClick={handleButtonClick}>< HiX /></button>}
             <button><FiSearch /></button>

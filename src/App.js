@@ -49,6 +49,13 @@ console.log(content);
     padding: '20px',
     
   };
+  // const contentSettings = {
+  //   marginLeft: isSidebarOpen ? '249px' : 0,
+  //   transition: 'margin-right 0.5s ease', 
+  //   background: "#1e8fff",
+  //   padding: '20px',
+    
+  // };
 
   const smallScreenStyle = {
     marginLeft: 0,
